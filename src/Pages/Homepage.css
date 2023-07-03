@@ -1,0 +1,77 @@
+* {
+  width: 100%;
+}
+.homepage_heading {
+  width: 400px;
+  height: 300px;
+  margin-left: 50px;
+  border: 1px solid white;
+}
+.homepage_heading h1 {
+  color: #130f40;
+}
+.homepage_heading p {
+  margin-top: 30px;
+}
+.hovercontent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+.elements {
+  width: 300px;
+  height: 300px;
+}
+.elements h3 {
+  margin-left: 50px;
+  color: #130f40;
+}
+.elements p {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+.elements {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 13s;
+  display: flex;
+  flex-wrap: wrap;
+}
+.elements span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.hover {
+  margin-top: -280px;
+  margin-left: 450px;
+}
+.active {
+  background-color: whitesmoke;
+}
+.elements p {
+  display: flex;
+  flex-wrap: wrap;
+}
+.active {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+  .hover {
+    margin-top: 150px;
+    display: flex;
+    margin-left: 0;
+  }
+  .hovercontent {
+    overflow-x: scroll;
+  }
+}

@@ -1,2 +1,2 @@
-# TeachinalChallenge
+# Challenge
  
